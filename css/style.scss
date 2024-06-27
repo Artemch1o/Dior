@@ -9,6 +9,13 @@ a {
     text-decoration: none;
 }
 
+button {
+    background-color: transparent;
+    padding: 0;
+    border: 0;
+    cursor: pointer;
+}
+
 html {
     box-sizing: border-box;
 }
@@ -296,4 +303,25 @@ body {
         line-height: 1.34;
         font-size: 32px;
     }
+}
+
+.video {
+    margin-bottom: 150px;
+
+    &__inner {}
+
+    &__box {
+        margin-left: auto;
+        max-width: 997px;
+        min-height: 600px;
+        background-image: url(../images/videoBg.jpeg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__btn {}
 }
