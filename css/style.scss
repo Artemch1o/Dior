@@ -323,5 +323,110 @@ body {
         justify-content: center;
     }
 
-    &__btn {}
+
+}
+
+.footer {
+    background-color: #C4A9CD;
+    padding: 66px 0 100px;
+
+    &__top {
+        margin-bottom: 70px;
+        display: flex;
+        justify-content: space-between;
+        gap: 0 70px;
+    }
+
+    &__logo {
+        margin-right: 10px;
+    }
+
+    &__img {}
+
+    &__items {
+        flex-basis: 387px;
+    }
+
+    &__item {
+        &+& {
+            margin-top: 50px;
+        }
+    }
+
+    &__item-list {
+        & li {
+            padding-top: 10px;
+        }
+    }
+
+    &__item-title {
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    &__item-form {
+        position: relative;
+    }
+
+    &__item-input {
+        width: 100%;
+        display: block;
+        padding: 10px 60px 10px 0;
+        border: none;
+        border-bottom: 1px solid #000;
+        background-color: #C4A9CD;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #1b1b1b;
+
+        &::placeholder {
+            font-size: 12px;
+            color: #000;
+            opacity: 0.4;
+            font-family: "Inter", sans-serif;
+            font-weight: 400;
+
+        }
+    }
+
+    &__item-btn {
+        position: absolute;
+        right: 0;
+        top: 10px;
+    }
+
+    &__item-link {}
+
+    &__social-list {
+        margin-left: 10px;
+        align-self: flex-end;
+        margin-right: 105px;
+
+    }
+
+    &__social-item {
+        &+& {
+            margin-top: 20px;
+        }
+    }
+
+
+    &__social-link {}
+
+    &__nav {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 105px;
+    }
+
+    &__nav-list {
+        margin-left: auto;
+        display: flex;
+        gap: 0 20px;
+    }
+
+    &__nav-item {}
+
+    &__nav-link {}
 }
