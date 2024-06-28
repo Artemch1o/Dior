@@ -1,6 +1,6 @@
 const swiperTop = new Swiper(".top__swiper", {
   loop: true,
-  effect: "coverflow",
+  // effect: "coverflow",
   speed: 1000,
   autoplay: {
     delay: 3500,
