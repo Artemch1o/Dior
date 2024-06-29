@@ -411,8 +411,15 @@ body {
         }
     }
 
-
-    &__social-link {}
+    &__social-link:hover {
+        svg {
+            g {
+                path {
+                    fill: rgb(255, 0, 0);
+                }
+            }
+        }
+    }
 
     &__nav {
         display: flex;
@@ -425,11 +432,9 @@ body {
         display: flex;
         gap: 0 20px;
     }
-
-    &__nav-item {}
-
-    &__nav-link {}
 }
+
+
 
 @media(max-width:1640px) {
     .products__items {
